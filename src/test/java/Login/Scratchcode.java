@@ -30,7 +30,8 @@ public class Scratchcode extends BaseTest {
         Confirmationpage confirmationpage = checkoutpage.submitOrder();
         String message = confirmationpage.getConfirmationMessage();
         Assert.assertTrue(message.equalsIgnoreCase("Thankyou for the order."));
-
+        System.out.println("Test completed");
+        System.out.println("happy path");
     }
 
 
